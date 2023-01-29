@@ -18,7 +18,6 @@ const Example = (): JSX.Element => {
 					{' '}
 					Mario Paglia
 				</a>
-				.
 			</p>
 		</Container>
 	);
