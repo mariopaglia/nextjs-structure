@@ -1,7 +1,7 @@
 import Example from '@/components/Example';
 
 const Home: React.FC = () => {
-	return <Example />;
+  return <Example />;
 };
 
 export default Home;

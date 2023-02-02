@@ -5,10 +5,10 @@ import GlobalStyle from '../styles/global';
 import theme from '../styles/theme';
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
-	return (
-		<ThemeProvider theme={theme}>
-			<Component {...pageProps} />
-			<GlobalStyle />
-		</ThemeProvider>
-	);
+  return (
+    <ThemeProvider theme={theme}>
+      <Component {...pageProps} />
+      <GlobalStyle />
+    </ThemeProvider>
+  );
 }
